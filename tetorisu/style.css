@@ -1,0 +1,100 @@
+.wrap{
+    border: 2.5px black dotted;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(25, 1fr);   
+    border: 1px solid black; 
+    height:600px ;
+    align-items: center;
+    width: 300px;
+
+}
+.grid-item {
+    border: 0.25px solid lightgray;
+    height: 100%;
+    width: 100%; 
+    box-sizing: border-box; 
+    aspect-ratio: 1 / 1;
+    background-color: white;
+  }
+.title{
+    text-align: center;
+}
+.right{
+    border: 2.5px black dotted;
+    height:600px ;
+    align-items: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.next{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);   
+    width: 200px;
+    box-sizing: border-box; 
+    
+    height: 200px;
+}
+.nextItem{
+    border: 0.25px solid lightgray;
+    height: 100%;
+    width: 100%; 
+    box-sizing: border-box; 
+    aspect-ratio: 1 / 1;
+}
+.score{
+    box-sizing: border-box; 
+    width: 100%;
+    border: 2.5px black dotted;
+    height: 100px;
+}
+.panelbtn{
+    width: 100%;
+    box-sizing: border-box; 
+    border: 2.5px black dotted;
+    height: 300px;
+}
+#rotatebtn img{
+    width: 50%;
+    height: 50%;
+}
+.left-right{
+    display: flex;
+}
+.leftbtndiv{
+    width: 50%;
+    height: 50px;
+}
+#leftbtn{
+    width: 100%;
+    height: 100%;
+}
+.rightbtndiv{
+    width: 50%;
+    height: 50px;
+}
+#rightbtn{
+    width: 100%;
+    height: 100%;
+}
+#blockFall{
+    width: 100%;
+    height: 70px;
+}
+#blockFallbtn{
+    width: 100%;
+    height: 100%;
+}
+#timeUp{
+    font-size: 20px;
+}
+
+
+

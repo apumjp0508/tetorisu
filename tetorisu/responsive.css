@@ -1,0 +1,18 @@
+@media (max-width:600px){
+    .wrap{
+        width: 400px;
+        height: 500px;
+    }
+    .grid-container{
+        width: 250px;
+        height: 500px;
+    }
+    .right{
+        width: 150px;
+        height: 500px;
+    }
+    .next{
+        width: 150px;
+        height: 150px;
+    }
+}

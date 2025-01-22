@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <h2 class="title">テトリス</h2>
+    <div class="wrap">
+        <div id='grid-container' class="grid-container"></div>
+        <div class="right">
+            <div id='nextcontainer' class="next"></div>
+            <div class="score">
+                <p id="scoreName">スコア</p>
+                <p id="score">0</p>
+                <h1 id="timeUp">タイムアップ！！！！</h1>
+            </div>
+            <div class="panelbtn">
+                <div class="left-right">
+                    <div class="leftbtndiv">
+                    <button id="leftbtn"><p>←</p></button> 
+                    </div>
+                    <div class="rightbtndiv">
+                        <button id="rightbtn"><p>→</p></button>
+                    </div>
+                </div>
+                <div class="rotate">
+                    <button id="rotatebtn"><img src="image/arrow_rotation_26954-600x600.jpg"></button>
+                </div>
+                <div id="blockFall">
+                    <button id="blockFallbtn"><p>↓</p></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/motion.js"></script>
+    <script src="js/const.js"></script>
+</body>
+</html>
